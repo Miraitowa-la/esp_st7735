@@ -1,0 +1,24 @@
+version: "0.1.0"
+description: "ESP-IDF SPI driver for ST7735 LCD displays."
+license: "MIT"
+maintainers:
+  - "Miraitowa-la"
+tags:
+  - display
+  - lcd
+  - spi
+  - st7735
+url: "https://github.com/Miraitowa-la/esp_st7735"
+repository: "https://github.com/Miraitowa-la/esp_st7735.git"
+issues: "https://github.com/Miraitowa-la/esp_st7735/issues"
+dependencies:
+  idf: ">=5.0"
+files:
+  exclude:
+    - "build/**"
+    - "managed_components/**"
+    - "dependencies.lock"
+    - "sdkconfig"
+    - "sdkconfig.*"
+    - ".vscode/**"
+    - ".idea/**"
