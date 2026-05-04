@@ -5,14 +5,14 @@
 After this component is published, add it to an ESP-IDF project with:
 
 ```bash
-idf.py add-dependency "miraitowa-la/esp_st7735^0.1.0"
+idf.py add-dependency "miraitowa-la/esp_st7735^0.1.1"
 ```
 
 Or add it manually in the consuming project's `main/idf_component.yml`:
 
 ```yaml
 dependencies:
-  miraitowa-la/esp_st7735: "^0.1.0"
+  miraitowa-la/esp_st7735: "^0.1.1"
 ```
 
 The application should initialize the SPI bus with `spi_bus_initialize()` first,

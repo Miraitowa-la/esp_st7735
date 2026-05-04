@@ -1,4 +1,4 @@
-version: "0.1.0"
+version: "0.1.1"
 description: "ESP-IDF SPI driver for ST7735 LCD displays."
 license: "MIT"
 maintainers:
